@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Moon Toggle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <span class="containerBg" id="containerBg"></span>
+        <div class="toggle" id="toggle">
+            <div class="sky">
+                <img class="cloud2" id="cloud2" src="./public/Cloud2.png"></img>
+                <img class="cloud1" id="cloud1" src="./public/Cloud1.png"></img>
+                <img class="stars" id="stars" src="./public/Stars.png"></img>
+            </div>
+            <input type="checkbox" id="check" onclick="toggleBg()">
+            <label for="check" class="sun">
+                <span class="crescentBg" id="crescentBg"></span>
+                <span class="crescent" id="crescent"></span>
+            </label>
+        </div>
+    </div>
+</body>
+</html>
