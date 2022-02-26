@@ -18,7 +18,7 @@ body {
     opacity: 0%;
     width: 100%; height: 100%;
     background-color: #5BA9D3;
-    background-image: url("./public/Stars.png");
+    background-image: url("./images/Stars.png");
     position: fixed;
     transition: 0.8s;
     z-index: 1;
@@ -26,7 +26,7 @@ body {
 
 .containerBgstyle {
     opacity: 100%;
-    background-image: url("./public/Stars.png");
+    background-image: url("./images/Stars.png");
     background-color: #0F405B;
     transition: 0.8s;
 }
@@ -103,7 +103,7 @@ body {
     border-radius: 100%;
     display: block;
     background: #F7D35A;
-    background-image: url("./public/Intersect.png");
+    background-image: url("./images/Intersect.png");
     position: fixed;
     transition: 0.8s;
 }
@@ -112,7 +112,7 @@ body {
     opacity: 100%;
     background: #DDDDDD;
     transition: 0.8s;
-    background-image: url("./public/Intersect.png");
+    background-image: url("./images/Intersect.png");
 }
 
 .sky {
